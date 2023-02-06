@@ -1,0 +1,34 @@
+{
+  "source": [
+    "tokens/**/*.json"
+  ],
+  "platforms": {
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "build/css/",
+      "files": [{
+          "format": "css/variables",
+          "destination": "variables.css"
+      }]
+    },
+    "scss": {
+      "transformGroup": "scss",
+      "buildPath": "build/scss/",
+      "files": [{
+        "format": "scss/variables",
+        "destination": "_variables.scss"
+      }]
+    },
+    "js": {
+      "transformGroup": "js",
+      "buildPath": "build/js/",
+      "files": [
+        {
+          "format": "javascript/object",
+          "destination": "styles.js"
+        }
+      ]
+    }
+  }
+}
+
